@@ -1,11 +1,10 @@
-// rest-socket.js
+# rest-socket.js
 
-// generic postgres db table > REST-style socket adaptor
+generic postgres db table > REST-style socket adaptor
 
-// USAGE: 
+## USAGE: 
 
-/*
-
+````
 // set up a sql table definition:
 var sql = require('sql');  // https://www.npmjs.com/package/sql
 var tableDefinition = sql.define({
@@ -30,13 +29,12 @@ io.on('connection', function(socket) {
 	// and get back a response from the database over the same message.
 
 });
+````
 
-*/
 
-/*
+## frontend implementation example:
 
-// frontend implementation example:
-
+````
 // listening for changes
 socket.on('topics:index', function(data){
 	// every time you hear about an index of the topics table, do this:
@@ -56,5 +54,4 @@ socket.on('topics:create', function(data){
 });
 // creating a model:
 socket.emit('topics:create', {name: "my topic", content: "my content"});
-
-*/
+````
