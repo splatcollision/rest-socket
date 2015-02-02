@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Restful routing for postgresql db tables over socket.io websockets",
   "main": "rest-socket.js",
+  "repository": { 
+    "type" : "git",
+    "url" : "https://github.com/splatcollision/rest-socket"
+  },
   "scripts": {
     "test": "npm test"
   },
