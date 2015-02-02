@@ -1,0 +1,21 @@
+{
+  "name": "rest-socket",
+  "version": "1.0.0",
+  "description": "Restful routing for postgresql db tables over socket.io websockets",
+  "main": "rest-socket.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "rest",
+    "postgresql",
+    "sql",
+    "socket.io",
+    "websockets"
+  ],
+  "author": "Kevin Haggerty",
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^2.1.1"
+  }
+}
